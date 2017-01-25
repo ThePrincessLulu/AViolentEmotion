@@ -11,5 +11,11 @@ client.on('message', msg => {
     msg.reply('Pong!');
 }
 });
+client.on('message', msg => {
+    if (msg.content === 'please') {
+   // console.log(msg.member.roles);
+    msg.member.addRole('273898318264795136');
+    msg.reply('Okay');
 
+}
 client.login('');
