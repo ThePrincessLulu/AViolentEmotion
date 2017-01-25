@@ -9,7 +9,7 @@ var responseObject = {
  "hey" : "Hey.",
  "please" : "no thank you",
  "Ryan" : "you're not cool",
-  "ping" : "Pong!"'
+  "ping" : "Pong!"
   "I won" : "That's what you think"  
 };
 bot.on('message', (message) => {
