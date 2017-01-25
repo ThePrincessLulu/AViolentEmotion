@@ -1,15 +1,17 @@
 console.log("bacon");
 const Discord = require("discord.js");
-const client = new Discord.Client();
+const Bot = new Discord.Client();
 
-client.on('ready', () => {
+bot.on('ready', () => {
     console.log(`Logged in as ${client.user.username}!`);
 });
 
-client.on('message', msg => {
+bot.on(bot.triggers.react, /hey|hello/);
+bot.on('message', msg => {
     if (msg.content === 'ping') {
-    msg.reply('Pong!');
+        msg.reply('Pong!' + bot.ping);
+       
 }
 });
 
-client.login('');
+bot.login('');
