@@ -1,0 +1,35 @@
+Pulling a file from Javascript
+http://www.w3schools.com/js/js_output.asp
+display data in different ways:
+  document.write() -> writing into the HTML output 
+  
+^^^ I dont think that's what I was looking for, will come back to this later
+
+
+Function
+um, functions work the same, I dont know how to group our code
+
+math.random*8 ;
+also have to use math.round 
+
+http://www.w3schools.com/jsref/prop_fileupload_files.asp
+back to file: I understand this is the worst oranization know to man  but its whatever.
+
+Input fileupload represents an HTML <input> element with type file
+document.getElementByID("my file")
+
+also 
+document.createElement("Input");
+x.setAttribute("type", "file");
+http://www.w3schools.com/jsref/dom_obj_fileupload.asp
+
+
+
+
+
+
+
+Conversation
+https://www.ibm.com/watson/developercloud/conversation.html
+
+ryan is pissed they dont have industrial music in the car demo
