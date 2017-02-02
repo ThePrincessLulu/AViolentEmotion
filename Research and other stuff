@@ -33,3 +33,9 @@ Conversation
 https://www.ibm.com/watson/developercloud/conversation.html
 
 ryan is pissed they dont have industrial music in the car demo
+TRAcery
+$ npm install tracery-grammar -- save
+
+var tracery = require('tracery-grammar');
+var grammar = tracery.createGrammar({
+  '
